@@ -1,0 +1,195 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: DM;
+  src: url(../public/DM_SANS/DMSans-VariableFont.ttf);
+}
+
+*{
+  margin:0;
+  font-family: DM;
+}
+
+nav{
+  z-index: 10;
+  position: relative;
+}
+
+
+
+.navback{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  backdrop-filter: blur(20px) brightness(.95);
+  background-color: rgb(250 250 250 / 55%);
+}
+
+.mobilemenu{
+  backdrop-filter: blur(20px) brightness(.95);
+  background-color: rgb(250 250 250 / 55%);
+}
+
+nav h1, nav ul, nav .icon{
+  z-index: 1;
+}
+
+body{
+  font-family: DM;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  /*background-color: #111827;*/
+  background-color: white;
+  width: 100vw;
+}
+
+
+
+.hero{
+  background: url(../public/images/herobanner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.hero::before{
+  content: "";
+  position: absolute;
+  background-color: hsla(0, 0%, 0%, 0.4);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.servicehero{
+  width: 100vw;
+  position: relative;
+  height: 100vh;
+  background: url(../public/images/serviceshero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.servicehero::before{
+  content: "";
+  position: absolute;
+  background-color: hsla(0, 0%, 0%, 0.4);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.abouthero{
+  width: 100vw;
+  position: relative;
+  height: 100vh;
+  background: url(../public/images/abouthero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.abouthero::before{
+  content: "";
+  position: absolute;
+  background-color: hsla(0, 0%, 0%, 0.4);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.contacthero{
+  width: 100vw;
+  position: relative;
+  height: 100vh;
+  background: url(../public/images/contacthero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contacthero::before{
+  content: "";
+  position: absolute;
+  background-color: hsla(0, 0%, 0%, 0.4);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+section h1, section p, section div{
+  z-index: 1;
+}
+
+
+.pgrowth{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 25px;
+}
+
+.holsgrid{
+  padding: 2%;
+  width: 100%;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+
+.elegrid{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 20px;
+  padding: 2%;
+}
+.whyengrid{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+
+@media(max-width:400px){
+  .holsgrid{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .whyengrid{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .whyengrid div{
+    width: 100%;
+  }
+  
+}
+
+@media(max-width:500px){
+  .elegrid{
+    display: flex;
+    flex-direction: column;
+  }
+  .elegrid div{
+    width: 100%;
+  }
+}
+
+
+.link:hover{
+  background-color: hsla(0, 100%, 100%, 0.1);
+}

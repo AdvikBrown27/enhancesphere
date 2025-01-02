@@ -7,7 +7,7 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    navigate("/book.enhancesphere.life");
+    navigate("/book.html");
   };
   return (
     <section className="text-white  flex flex-col items-center text-center">

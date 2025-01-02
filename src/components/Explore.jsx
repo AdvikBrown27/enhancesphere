@@ -129,7 +129,7 @@ function Explore() {
           </p>
         </motion.div>
       </div>
-      <Link to="/book.enhancesphere.life" className="w-[200px] ">
+      <Link to="/book.html" className="w-[200px] ">
         <motion.button
           initial={{
             y: 100,

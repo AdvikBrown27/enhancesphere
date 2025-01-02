@@ -87,7 +87,7 @@ function WhatWeOffer() {
               <p>Motivation</p>
             </div>
           </div>
-          <Link to="/book.enhancesphere.life">
+          <Link to="/book.html">
             <button className="w-full flex items-center justify-center bg-[#9333EA] p-[2%] rounded-[5px]">
               Learn More <FiArrowRight />
             </button>
@@ -164,7 +164,7 @@ function WhatWeOffer() {
               <p>Financial Literacy</p>
             </div>
           </div>
-          <Link to="/book.enhancesphere.life">
+          <Link to="/book.html">
             <button className="w-full flex items-center justify-center bg-[#9333EA] p-[2%] rounded-[5px]">
               Learn More <FiArrowRight />
             </button>
@@ -241,7 +241,7 @@ function WhatWeOffer() {
               <p>Team Management</p>
             </div>
           </div>
-          <Link to="/book.enhancesphere.life">
+          <Link to="/book.html">
             <button className="w-full flex items-center justify-center bg-[#9333EA] p-[2%] rounded-[5px]">
               Learn More <FiArrowRight />
             </button>

@@ -111,7 +111,7 @@ function Elevate() {
             </div>
           )}
           <Link
-            to="/book.enhancesphere.life"
+            to="/book.html"
             className="bg-[#9333EA] flex items-center w-[90%] rounded-[5px] mb-[30px] justify-between p-[2%]"
           >
             <button className="flex items-center w-full justify-between">
@@ -170,7 +170,7 @@ function Elevate() {
             </div>
           )}
           <Link
-            to="/book.enhancesphere.life"
+            to="/book.html"
             className="bg-[#9333EA] flex items-center w-[90%] rounded-[5px] mb-[30px] justify-between p-[2%]"
           >
             <button className="flex items-center w-full justify-between">
@@ -229,7 +229,7 @@ function Elevate() {
             </div>
           )}
           <Link
-            to="/book.enhancesphere.life"
+            to="/book.html"
             className="bg-[#9333EA] flex items-center w-[90%] rounded-[5px] mb-[30px] justify-between p-[2%]"
           >
             <button className="flex items-center w-full justify-between">
@@ -288,7 +288,7 @@ function Elevate() {
             </div>
           )}
           <Link
-            to="/book.enhancesphere.life"
+            to="/book.html"
             className="bg-[#9333EA] flex items-center w-[90%] rounded-[5px] mb-[30px] justify-between p-[2%]"
           >
             <button className="flex items-center w-full justify-between">

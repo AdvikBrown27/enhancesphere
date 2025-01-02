@@ -45,7 +45,7 @@ function Ready() {
         potential? EnhanceSphere is your ultimate partner in achieving personal
         fulfillment, financial independence, and professional excellence.
       </motion.p>
-      <Link to="/book.enhancesphere.life">
+      <Link to="/book.html">
         <motion.button
           initial={{
             x: -100,

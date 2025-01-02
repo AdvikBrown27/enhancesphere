@@ -87,7 +87,7 @@ function Nav() {
           <li>Contact</li>
         </Link>
         <Link
-          to="/book.enhancesphere.life"
+          to="/book.html"
           className={`link w-[fit-content] cursor-pointer rounded-[5px] p-[2%] bg-[#9333EA] text-white`}
         >
           <li>Book a Call</li>
@@ -152,7 +152,7 @@ function Nav() {
               <li>Contact</li>
             </Link>
             <Link
-              to="/book.enhancesphere.life"
+              to="/book.html"
               onClick={() => {
                 setShowMenu(false);
               }}

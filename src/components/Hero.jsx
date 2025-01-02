@@ -55,13 +55,13 @@ function Hero() {
         className="flex w-full justify-center"
       >
         <Link
-          to="/book.enhancesphere.life"
+          to="/book.html"
           className="cursor-pointer bg-[#9333EA] p-[2%] mx-[10px] rounded-[5px]"
         >
           <button>Start Your Journey</button>
         </Link>
         <Link
-          to="/book.enhancesphere.life"
+          to="/book.html"
           className="cursor-pointer bg-[#020817] p-[2%] text-white mx-[10px] rounded-[5px]"
         >
           <button>Learn More</button>

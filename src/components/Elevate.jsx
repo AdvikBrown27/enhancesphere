@@ -110,14 +110,14 @@ function Elevate() {
               })}
             </div>
           )}
-          <Link
-            to="/book.html"
+          <a
+            href="/book.html"
             className="bg-[#9333EA] flex items-center w-[90%] rounded-[5px] mb-[30px] justify-between p-[2%]"
           >
             <button className="flex items-center w-full justify-between">
               Learn More <FiArrowRight />
             </button>
-          </Link>
+          </a>
         </motion.div>
         <motion.div
           initial={{
@@ -169,14 +169,14 @@ function Elevate() {
               })}
             </div>
           )}
-          <Link
-            to="/book.html"
+          <a
+            href="/book.html"
             className="bg-[#9333EA] flex items-center w-[90%] rounded-[5px] mb-[30px] justify-between p-[2%]"
           >
             <button className="flex items-center w-full justify-between">
               Learn More <FiArrowRight />
             </button>
-          </Link>
+          </a>
         </motion.div>
         <motion.div
           initial={{
@@ -228,14 +228,14 @@ function Elevate() {
               })}
             </div>
           )}
-          <Link
-            to="/book.html"
+          <a
+            href="/book.html"
             className="bg-[#9333EA] flex items-center w-[90%] rounded-[5px] mb-[30px] justify-between p-[2%]"
           >
             <button className="flex items-center w-full justify-between">
               Learn More <FiArrowRight />
             </button>
-          </Link>
+          </a>
         </motion.div>
         <motion.div
           initial={{
@@ -287,14 +287,14 @@ function Elevate() {
               })}
             </div>
           )}
-          <Link
-            to="/book.html"
+          <a
+            href="/book.html"
             className="bg-[#9333EA] flex items-center w-[90%] rounded-[5px] mb-[30px] justify-between p-[2%]"
           >
             <button className="flex items-center w-full justify-between">
               Learn More <FiArrowRight />
             </button>
-          </Link>
+          </a>
         </motion.div>
       </div>
     </section>

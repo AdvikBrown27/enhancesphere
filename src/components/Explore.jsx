@@ -129,7 +129,7 @@ function Explore() {
           </p>
         </motion.div>
       </div>
-      <Link to="/book.html" className="w-[200px] ">
+      <a href="/book.html" className="w-[200px] ">
         <motion.button
           initial={{
             y: 100,
@@ -151,7 +151,7 @@ function Explore() {
         >
           Get Started Now
         </motion.button>
-      </Link>
+      </a>
     </section>
   );
 }

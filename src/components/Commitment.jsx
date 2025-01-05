@@ -52,11 +52,11 @@ function Commitment() {
         <p className="text-xl font-bold my-[30px]">
           Your growth is our success. Let's transform your life together.
         </p>
-        <Link to="/book.html">
+        <a href="/book.html">
           <button className="bg-white text-[#C084FC] flex items-center p-[10px] rounded-[2px]">
             Get Started Now <FiArrowRight className="ml-[20px]" />
           </button>
-        </Link>
+        </a>
       </motion.div>
     </section>
   );

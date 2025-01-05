@@ -86,12 +86,12 @@ function Nav() {
         >
           <li>Contact</li>
         </Link>
-        <Link
-          to="/book.html"
+        <a
+          href="/book.html"
           className={`link w-[fit-content] cursor-pointer rounded-[5px] p-[2%] bg-[#9333EA] text-white`}
         >
           <li>Book a Call</li>
-        </Link>
+        </a>
       </ul>
       {!showMenu ? (
         <RiMenu3Fill
@@ -151,15 +151,15 @@ function Nav() {
             >
               <li>Contact</li>
             </Link>
-            <Link
-              to="/book.html"
+            <a
+              href="/book.html"
               onClick={() => {
                 setShowMenu(false);
               }}
               className={`link w-[90%] cursor-pointer rounded-[5px] p-[2%] bg-[#9333EA] text-center text-white`}
             >
               <li>Book a Call</li>
-            </Link>
+            </a>
           </ul>
         </div>
       )}

@@ -45,7 +45,7 @@ function Ready() {
         potential? EnhanceSphere is your ultimate partner in achieving personal
         fulfillment, financial independence, and professional excellence.
       </motion.p>
-      <Link to="/book.html">
+      <a href="/book.html">
         <motion.button
           initial={{
             x: -100,
@@ -66,7 +66,7 @@ function Ready() {
         >
           Book Your FREE Consultation Now
         </motion.button>
-      </Link>
+      </a>
     </section>
   );
 }
